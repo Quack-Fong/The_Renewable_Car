@@ -1,0 +1,986 @@
+body{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    background-size: cover
+}
+
+.navBar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    font-size: 17px;
+    background-color: #333;
+    position: fixed;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+#navItems{
+    float: left;
+    list-style-type: none;
+    padding-left: 20px;
+}    
+    
+
+
+a #navItems{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+li{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px black;
+}
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('Images/car.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+#title{
+  text-transform: none;
+  font-size: 3rem;
+  text-shadow: 0px 0px 10px black;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(35, end),
+    blink-caret .75s step-end infinite;
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.OverJay {
+  padding-top: 10px;
+  margin-left: 150px;
+  position: relative;
+  width: 20%;
+}
+
+.OverJay1 {
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+}
+
+.OverJay2 {
+  padding-top: 10px;
+  margin-left: 150px;
+  position: relative;
+  width: 20%;
+}
+
+.OverJay3 {
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+}
+
+.OverJay4 {
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+}
+
+.OverJay5 {
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+}
+.OverJay6 {
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+}
+
+.Overimage {
+  font-size:20px;
+  padding-bottom: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage1 {
+  font-size:20px;
+  padding-bottom: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage2 {
+  font-size:20px;
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage3 {
+  font-size:20px;
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage4 {
+  font-size:20px;
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage5 {
+  font-size:20px;
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage6 {
+  font-size:20px;
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+}
+
+.overlay1 {
+  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+}
+
+.overlay2 {
+  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-top: 15px;
+}
+
+.overlay3 {
+  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-top: 15px;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 485%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+  padding-bottom: 160px;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 485%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+  padding-bottom: 160px;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 485%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+  padding-bottom: 160px;
+  
+}
+
+.OverJay:hover .overlay {
+  opacity: 1;
+}
+
+.OverJay1:hover .overlay1 {
+  opacity: 1;
+}
+
+.OverJay2:hover .overlay2 {
+  opacity: 1;
+}
+
+.OverJay3:hover .overlay3 {
+  opacity: 1;
+}
+
+.OverJay4:hover .overlay4 {
+  opacity: 1;
+}
+
+.OverJay5:hover .overlay5 {
+  opacity: 1;
+}
+
+.OverJay6:hover .overlay6 {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+#profile {
+  border-radius: 50%;
+  height: 100%;
+  width: 200%;
+  margin-left: 200px;
+}
+
+.column {
+  float: left;
+  height: 50%;
+  width: 45%;
+}
+
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#benefits {
+  opacity: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+}
+
+#applications {
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#aboutus {
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact {
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#center{
+  text-align: center;
+}
+
+
+ol.box1{
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.container {
+    width: 100%;
+    font-weight: 900;
+    text-transform: none;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  padding: 9px 15px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.animate {
+    font-size: 50px;
+    margin: 100px 0 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.animate span {
+    display: inline-block;
+}
+
+a.repeat {
+  display: inline-block;
+  font-size: 15px;
+  text-transform: none;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: normal;
+  margin: 10px;
+  border-radius: 3px;
+  position: relative;
+}
+
+a.repeat:hover {
+  background: rgba(255,255,255);
+  color: black;
+  text-shadow: none;
+
+}
+
+a.repeat1 {
+  background-color: whitesmoke;
+  display: inline-block;
+  font-size: 15px;
+  text-transform: none;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: normal;
+  margin: 10px;
+  border-radius: 3px;
+  position: relative;
+}
+
+a.repeat1:hover {
+  background: rgba(0,0,0);
+  color: whitesmoke;
+  text-shadow: none;
+
+}
+
+.animate span:nth-of-type(2) {
+    animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+    animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+    animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+    animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+    animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+    animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+    animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+    animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+    animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+    animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+    animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+    animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+    animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+    animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+    animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+    animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+    animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+    animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+    animation-delay: .95s;
+}
+.animate span:nth-of-type(21) {
+    animation-delay: 1s;
+}
+
+
+.three span {
+    color: whitesmoke;
+    opacity: 0;
+    transform: translate(-300px, 0) scale(0);
+    animation: sideSlide 4.5s forwards;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+@keyframes sideSlide {
+    0%{
+      visibility: hidden;
+      color:black;
+    }
+    60% {
+        visibility: hidden;
+        transform: translate(20px, 0) scale(1);
+        color: black;
+    }
+
+    80% {
+      visibility: hidden;
+        transform: translate(20px, 0) scale(1);
+        color: gray;
+    }
+
+    99% {
+        transform: translate(0) scale(1.2);
+        color: white;
+    }
+
+    100% {
+        transform: translate(0) scale(1);
+        opacity: 1;
+        color: whitesmoke;
+        text-shadow: 0px 0px 10px black;
+    }
+}
+
+.box {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 345px;
+  border-color: #141e30;
+  border-style: double;
+  border-width: 30px;
+  padding-left:3px;
+  margin-left: 100px;
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px black;
+  font-size: 18px;
+}
+.box1 {
+  alignment-baseline: central;
+  width: 50%;
+  height: 90%;
+  padding-top:5px;
+  border-color: #141e30;
+  border-style: double;
+  border-width: 30px;
+  padding-left:3px;
+  padding-bottom:10px;
+  margin-left: 375px;
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px black;
+  font-size: 18px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+#left{
+  float: left;
+}
+#right{
+  float: right;
+  margin-right: 100px;
+  border-color: #141e30;
+  border-style: double;
+  border-width: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px black;
+}
+
+@keyframes jello {
+  11.1% {
+    transform: none
+  }
+  22.2% {
+    transform: skewX(-12.5deg) skewY(-12.5deg)
+  }
+  33.3% {
+    transform: skewX(6.25deg) skewY(6.25deg)
+  }
+  44.4% {
+    transform: skewX(-3.125deg) skewY(-3.125deg)
+  }
+  55.5% {
+    transform: skewX(1.5625deg) skewY(1.5625deg)
+  }
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg)
+  }
+  77.7% {
+    transform: skewX(0.390625deg) skewY(0.390625deg)
+  }
+  88.8% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg)
+  }
+  100% {
+    transform: none
+  }
+}
+
+.jello {
+  animation: jello 2s infinite;
+  transform-origin: center;
+  height: auto;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width:1500px) {
+.box {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: auto;
+  border-color: #141e30;
+  border-style: double;
+  border-width: 30px;
+  padding-left:3px;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px black;
+  font-size: 18px;
+}
+#right{
+  margin-right: 19%;
+  margin-left: 15%;
+  border-color: #141e30;
+  border-style: double;
+  border-width: 30px;
+}
+.inline{
+  text-align: center;
+}
+.box1 {
+  alignment-baseline: central;
+  width: 50%;
+  height: auto;
+  padding-top:5px;
+  border-color: #141e30;
+  border-style: double;
+  border-width: 30px;
+  padding-left:3px;
+  padding-bottom:10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px black;
+  font-size: 18px;
+}
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 485%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 485%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 485%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+  
+}
+.blink_me {
+  margin-top: 100px;
+  animation: blinker 1s linear infinite;
+}
+
+.OverJay {
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+  float:left;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top: 10%;
+}
+
+.OverJay1 {
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+  clear: both;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top: 100%;
+}
+
+.OverJay2 {
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+  float: left;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top: 10%;
+}
+
+.OverJay3 {
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  position: relative;
+  width: 20%;
+  clear:both;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top: 100%;
+}
+.Overimage {
+  font-size:20px;
+  padding-bottom: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage1 {
+  padding-bottom: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage2 {
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Overimage3 {
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  margin-left: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+}
+
+.overlay1 {
+  margin-left: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-bottom: 15px;
+}
+
+.overlay2 {
+  margin-left: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-top: 15px;
+}
+
+.overlay3 {
+  margin-left: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 450%;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to right, #948e99, #2e1437);
+  margin-top: 15px;
+}
+.column {
+  float: none;
+  height: 50%;
+  width: 45%;
+}
+
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.three span {
+    color: whitesmoke;
+    font-size: 35px;
+    opacity: 0;
+    transform: translate(-300px, 0) scale(0);
+    animation: sideSlide 4.5s forwards;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+#title{
+  text-transform: none;
+  font-size: 3rem;
+  text-shadow: 0px 0px 10px black;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(35, end),
+    blink-caret .75s step-end infinite;
+}
+}
